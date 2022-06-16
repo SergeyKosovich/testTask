@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    user-select: none;
+    background-color: rgb(233, 229, 229);
+    font-size: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#addTagsForm {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tagsText {
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgb(150, 146, 146);
+    border-radius: 4px;
+}
+
+#addTagButton {
+    background: #e45656;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #b14949;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#tagsArea {
+    width: 100%;
+}
+
+.addedTags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.removeTag {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: #b14949;
+
+}
+
+.readonlyWrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 150px;
+    flex: 1 0;
+    padding-bottom: 10px;
+}
